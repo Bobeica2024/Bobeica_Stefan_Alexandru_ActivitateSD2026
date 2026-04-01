@@ -128,6 +128,9 @@
     <ClCompile Include="Seminar_3.c" />
     <ClCompile Include="Seminar_4.c" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="masini.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

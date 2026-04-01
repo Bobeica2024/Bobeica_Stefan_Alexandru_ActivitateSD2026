@@ -35,19 +35,14 @@ void afisareVectorMasini(Masina* masini, int nrMasini) {
 }
 
 void adaugaMasinaInVector(Masina** masini, int* nrMasini, Masina masinaNoua) {
-	//adauga in vectorul primit o noua masina pe care o primim ca parametru
-	//ATENTIE - se modifica numarul de masini din vector;
-	Masina* aux = (Masina*)malloc(sizeof(Masina) * ((*nrMasini) + 1));
-	for (int i = 0; i < *nrMasini; i++) {
-		aux[i] = (*masini)[i];//shallow copy
+	Masina* aux = (Masina*)malloc(sizeof(Masina) * (*nrMasini + 1));
+	for (int i = 0; i < (*nrMasini); i++) {
+		aux[i] = (*masini)[i];
 	}
-	aux[(*nrMasini)] = masinaNoua;
-
+	aux[*nrMasini] = masinaNoua;
 	free(*masini);
 	*masini = aux;
-
 	(*nrMasini)++;
-
 }
 
 Masina citireMasinaFisier(FILE* file) {
