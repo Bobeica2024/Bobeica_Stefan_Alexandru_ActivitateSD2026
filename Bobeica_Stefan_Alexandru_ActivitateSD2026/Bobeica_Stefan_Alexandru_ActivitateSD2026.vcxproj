@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Seminar_8.c" />
     <ClCompile Include="Seminar_1.c" />
     <ClCompile Include="Seminar_2.c" />
     <ClCompile Include="Seminar_3.c" />
