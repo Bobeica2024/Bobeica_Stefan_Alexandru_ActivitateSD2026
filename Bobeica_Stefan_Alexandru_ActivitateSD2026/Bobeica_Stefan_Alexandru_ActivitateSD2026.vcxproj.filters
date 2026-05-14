@@ -39,7 +39,7 @@
     <ClCompile Include="Seminar_11.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Seminar12.c">
+    <ClCompile Include="Seminar_12.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
