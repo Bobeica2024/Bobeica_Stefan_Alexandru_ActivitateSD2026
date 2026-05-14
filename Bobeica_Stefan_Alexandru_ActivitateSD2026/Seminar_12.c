@@ -193,5 +193,6 @@ int main() {
 	graf = citireNoduriMasiniDinFisier("masini.txt");
 	citireMuchiiDinFisier(graf, "muchii.txt");
 	afisareLista(graf, 1);
+	dezalocareNoduriGraf(&graf);
 	return 0;
 }
