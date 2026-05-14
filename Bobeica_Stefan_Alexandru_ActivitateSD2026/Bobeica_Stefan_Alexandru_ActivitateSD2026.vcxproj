@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Seminar12\Seminar12\Seminar12.c" />
     <ClCompile Include="Seminar_10.c" />
     <ClCompile Include="Seminar_11.c" />
     <ClCompile Include="Seminar_8.c" />
@@ -134,6 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\Seminar 10\Seminar 10\masini_arbore.txt" />
+    <Text Include="..\..\Seminar12\Seminar12\muchii.txt" />
     <Text Include="masini.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

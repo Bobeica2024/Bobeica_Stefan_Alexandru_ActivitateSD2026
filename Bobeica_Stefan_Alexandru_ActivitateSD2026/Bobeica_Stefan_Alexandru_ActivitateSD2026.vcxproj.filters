@@ -39,12 +39,18 @@
     <ClCompile Include="Seminar_11.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Seminar12\Seminar12\Seminar12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="masini.txt">
       <Filter>Source Files</Filter>
     </Text>
     <Text Include="..\..\Seminar 10\Seminar 10\masini_arbore.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\Seminar12\Seminar12\muchii.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
